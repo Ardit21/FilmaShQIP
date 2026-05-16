@@ -1,0 +1,31 @@
+# MetaTrader compiled artifacts
+*.ex5
+*.ex4
+
+# MetaEditor temp/backup
+*.bak
+*~
+
+# Logs (runtime; never committed)
+Files/FilmaShQIP/log_*.jsonl
+Files/FilmaShQIP/trades_*.jsonl
+Files/FilmaShQIP/state.json
+Files/FilmaShQIP/calendar_cache.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Test reports (intermediate; only final committed to Tests/Reports/ explicitly)
+Tests/Reports/_intermediate/
+Tests/Reports/*.tmp
+
+# Python harness venv (for WFO scripts)
+.venv/
+__pycache__/
+*.pyc
